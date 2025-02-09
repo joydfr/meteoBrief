@@ -8,4 +8,5 @@ Et renseigner votre clé api dans un fichier à créer env
 
 créer ce fichier `env.js`
 
-![image](https://github.com/user-attachments/assets/234a37c9-a598-492c-aa2c-a1d81eca8e1f)
+
+![image](https://github.com/user-attachments/assets/62f34b5b-6f26-41e8-a74d-9f7adc1c5d9d)
