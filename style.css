@@ -1,0 +1,51 @@
+/* Style du body pour l'image de fond */
+body {
+    /* ajout d'une image pour le fond de la page et lui faire prendre toute la page*/
+    background-image: url('https://images.unsplash.com/photo-1738975927070-d5af82de67c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* j'utilse ma class meteo-card pour réaliser le style de la carte méteo  */
+.meteo-card {
+    width: 50%;
+    margin: 20px auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 24px;
+    text-align: center;
+}
+
+/* j'adapte la couleurs, la taille de mes textes*/
+.card-title {
+    font-size: 24px;
+    color: white;
+}
+
+.card-date {
+    font-size: 16px;
+    color: #bebebe;
+}
+
+.temperature {
+    font-size: 40px;
+    color: white;
+}
+
+.card-description {
+    color: #bebebe;
+}
+
+/* j'utilise de nouveau une flexbox pour mettre mon icon et ma temperature l'une à coté de l'autre et centré */
+.meteo-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

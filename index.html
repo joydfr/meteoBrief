@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méteo</title>
+
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--création d'une div pour contenir d'autre élément et nomination des class pour les rappelle dans le css-->
+    <div class="meteo-card">
+        <div class="card-body">
+            <section class="meteo">
+                <h2 class="card-title">La météo de <span id="city"></span></h2>
+                <h3 id="date" class="card-date"></h3>
+                <div class="meteo-info">
+                    <img src="" alt="Weather Icon" id="icon" class="weather-icon">
+                    <h2 id="temperature" class="temperature"></h2>
+                </div>
+                <p id="description" class="card-description"></p>
+            </section>
+        </div>
+    </div>
+
+    <!-- appel du fichier env.js avec la clé api-->
+    <script src="env.js"></script>
+    <!-- appel du fichier js qui fait les appels l'api-->
+    <script src="meteo.js"></script>
+</body>
+
+</html>
